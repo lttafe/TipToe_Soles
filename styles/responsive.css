@@ -1,0 +1,130 @@
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    header .logo {
+        margin-bottom: 10px;
+    }
+
+    nav#navbar .search-bar {
+        padding: 10px;
+        background-color: #222;
+        margin-bottom: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 70px;
+    }
+
+    nav#navbar .search-bar input {
+        width: 90%;
+        max-width: 400px;
+        font-size: 16px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    header .hamburger {
+        display: block;
+        margin-top: 10px;
+    }
+
+    nav#navbar {
+        top: 80px;
+    }
+
+    nav#navbar.open {
+        height: auto;
+    }
+
+    nav#navbar ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav#navbar ul li {
+        width: 100%;
+    }
+
+    main {
+        margin-left: 0;
+        padding-top: 160px;
+        justify-content: center;
+    }
+
+    .card {
+        width: 90%;
+        max-width: 90%;
+        margin: 10px 0;
+    }
+
+    .card-image {
+        height: 180px;
+    }
+
+    .card-content {
+        height: auto;
+    }
+
+    .card-button {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (min-width: 769px) {
+    nav#navbar {
+        position: fixed;
+        top: 50px;
+        left: 0;
+        width: 220px;
+        height: 100%;
+        background-color: transparent;
+        padding-top: 30px;
+    }
+
+    nav#navbar ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav#navbar ul li {
+        padding: 10px 20px;
+    }
+
+    nav#navbar ul li a {
+        color: #000;
+    }
+
+    nav#navbar .search-bar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    nav#navbar .search-bar input {
+        width: 60%;
+        max-width: 400px;
+        font-size: 16px;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+    }
+
+    main {
+        margin-left: 240px;
+    }
+
+    footer ul li a {
+        color: #fff;
+    }
+}

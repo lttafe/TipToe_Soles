@@ -84,6 +84,10 @@ footer {
     width: 100%;
 }
 
+footer .social-media-1 img {
+    height: 20px;
+}
+
 footer ul {
     list-style: none;
     padding: 0;

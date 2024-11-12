@@ -1,5 +1,6 @@
 /* LACHLAN TANFIELD - PART 3 ASSIGNMENT */
 
+/* FOR WHEN THE SCREEN IS MORE LIKE IN MINIMIZED VIEW OR MOBILE VIEW, REFER TO MAIN.CSS FOR FUNCTION COMMENTS */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -80,6 +81,7 @@
     }
 }
 
+/* FOR WHEN THE SCREEN IS MORE LIKE IN FULLSCREEN IN A DESKTOP, REFER TO MAIN.CSS FOR FUNCTION COMMENTS */
 @media (min-width: 769px) {
     nav#navbar {
         position: fixed;

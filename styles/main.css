@@ -70,6 +70,7 @@ nav#navbar.open {
     height: auto;
 }
 
+/* STYLING FOR: NAVIGATION MENU LIST AND CONTENT */
 nav#navbar ul {
     list-style: none;
     padding: 0;
@@ -77,16 +78,19 @@ nav#navbar ul {
     text-align: center;
 }
 
+/* STYLING FOR: NAVIGATION MENU LIST ITEMS */
 nav#navbar ul li {
     padding: 10px;
 }
 
+/* STYLING FOR: NAVIGATION MENU LINK STYLES */
 nav#navbar ul li a {
     text-decoration: none;
     color: #fff;
     display: block;
 }
 
+/* STYLING FOR THE FOOTER */
 footer {
     background-color: #222;
     color: #fff;
@@ -97,10 +101,12 @@ footer {
     width: 100%;
 }
 
+/* STYLING FOR: SOCIAL MEDIA ICON ON THE FOOTER */
 footer .social-media-1 img {
     height: 20px;
 }
 
+/* STYLING FOR: FOOTER LIST */
 footer ul {
     list-style: none;
     padding: 0;
@@ -110,15 +116,18 @@ footer ul {
     justify-content: center;
 }
 
+/* STYLING FOR: FOOTER LIST ITEMS */
 footer ul li {
     margin: 0 10px;
 }
 
+/* STYLING FOR: FOOTER LIST LINK STYLES */
 footer ul li a {
     text-decoration: none;
     color: #fff;
 }
 
+/* STYLING FOR PAGE CONTENT AREA */
 main {
     margin-left: 240px;
     padding-top: 120px;
@@ -130,6 +139,7 @@ main {
     gap: 20px;
 }
 
+/* STYLING FOR: PRODUCT CARDS */
 .card {
     background-color: #fff;
     border-radius: 10px;
@@ -142,12 +152,14 @@ main {
     flex-direction: column;
 }
 
+/* STYLING FOR THE PRODUCT IMAGES */
 .card-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
+/* STYLING FOR: CONTENT WITHIN PRODUCT CARD */
 .card-content {
     padding: 15px;
     display: flex;
@@ -156,12 +168,14 @@ main {
     height: 200px;
 }
 
+/* STYLING FOR: PRODUCT CARD TITLE */
 .card h4 {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
+/* STYLING FOR: PRODUCT DESCRIPTION */
 .card p {
     font-size: 0.9rem;
     color: #666;
@@ -169,6 +183,7 @@ main {
     flex-grow: 1;
 }
 
+/* STYLING FOR: BUY IT NOW BUTTON */
 .card-button {
     align-self: flex-start;
     padding: 10px 20px;
@@ -182,6 +197,7 @@ main {
     transition: background-color 0.3s ease;
 }
 
+/* STYLING FOR: SEARCH BAR IN NAVIGATION */
 nav#navbar .search-bar {
     width: 100%;
     display: flex;
@@ -189,6 +205,7 @@ nav#navbar .search-bar {
     padding: 10px;
 }
 
+/* STYLING FOR THESEARCH BAR IN THE INPUT FIELD */
 nav#navbar .search-bar input {
     width: 60%;
     max-width: 400px;

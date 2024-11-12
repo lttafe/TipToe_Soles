@@ -79,6 +79,11 @@
         width: 100%;
         text-align: center;
     }
+
+    footer ul li a {
+        color: #fff;
+        text-decoration: none;
+    }
 }
 
 /* FOR WHEN THE SCREEN IS MORE LIKE IN FULLSCREEN IN A DESKTOP, REFER TO MAIN.CSS FOR FUNCTION COMMENTS */

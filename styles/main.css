@@ -126,33 +126,13 @@ footer ul li a {
     text-decoration: none;
 }
 
-/* STYLING FOR: Return Policy LINK */
-footer ul li a.return-policy:link {
+/* STYLING FOR: FOOTER UTILITY LINK */
+footer ul li a.utility-link:link {
     color: #fff; 
 }
 
-/* STYLING FOR: Return Policy WHEN VISITED */
-footer ul li a.return-policy:visited {
-    color: yellow;
-}
-
-/* STYLING FOR: Exchange Policy LINK */
-footer ul li a.exchange-policy:link {
-    color: #fff;
-}
-
-/* STYLING FOR: Exchange Policy WHEN VISITED */
-footer ul li a.exchange-policy:visited {
-    color: yellow;
-}
-
-/* STYLING FOR: Delivery Policy LINK */
-footer ul li a.delivery-policy:link {
-    color: #fff
-}
-
-/* STYLING FOR: Delivery Policy WHEN VISITED */
-footer ul li a.delivery-policy:visited {
+/* STYLING FOR: FOOTER UTILITY WHEN VISITED */
+footer ul li a.utility-link:visited {
     color: yellow;
 }
 
@@ -213,7 +193,7 @@ main {
 }
 
 /* STYLING FOR: BUY IT NOW BUTTON */
-.card-button1 {
+.card-button {
     align-self: flex-start;
     padding: 10px 20px;
     background-color: #333;
@@ -227,83 +207,7 @@ main {
 }
 
 /* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
-.card-button1:visited {
-    color: yellow;
-}
-
-/* STYLING FOR: BUY IT NOW BUTTON */
-.card-button2 {
-    align-self: flex-start;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0. 3s ease;
-}
-
-/* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
-.card-button2:visited {
-    color: yellow;
-}
-
-/* STYLING FOR: BUY IT NOW BUTTON */
-.card-button3 {
-    align-self: flex-start;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0. 3s ease;
-}
-
-/* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
-.card-button3:visited {
-    color: yellow;
-}
-
-/* STYLING FOR: BUY IT NOW BUTTON */
-.card-button4 {
-    align-self: flex-start;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0. 3s ease;
-}
-
-/* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
-.card-button4:visited {
-    color: yellow;
-}
-
-/* STYLING FOR: BUY IT NOW BUTTON */
-.card-button5 {
-    align-self: flex-start;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0. 3s ease;
-}
-
-/* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
-.card-button5:visited {
+.card-button:visited {
     color: yellow;
 }
 

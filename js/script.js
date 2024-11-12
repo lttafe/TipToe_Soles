@@ -2,6 +2,6 @@
 
 // HAMBURGER MENU
 document.getElementById('hamburger').addEventListener('click', function () {
-    const navbar = document.getElementById('navigation-menu');
-    navbar.classList.toggle('open');
+    const navmenu = document.getElementById('navigation-menu');
+    navmenu.classList.toggle('open');
 });

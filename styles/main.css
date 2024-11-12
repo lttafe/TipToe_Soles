@@ -88,6 +88,10 @@ footer {
     width: 100%;
 }
 
+footer a.visited {
+    color: red
+}
+
 footer .social-media-1 img {
     height: 20px;
 }

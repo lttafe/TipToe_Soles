@@ -53,6 +53,10 @@ nav#navbar {
     height: 0;
 }
 
+nav#navbar a.active {
+    font-weight: bold;
+}
+
 nav#navbar.open {
     height: auto;
 }

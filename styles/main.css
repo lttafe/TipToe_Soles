@@ -48,7 +48,7 @@ header .hamburger {
 }
 
 /* STYLING FOR: NAVIGATION MENU (NAV ELEMENT FOR NAVBAR ID) */
-nav#navbar {
+nav#navigation-menu {
     position: fixed;
     top: 50px;
     left: 0;
@@ -61,17 +61,17 @@ nav#navbar {
 }
 
 /* STYLING FOR: CURRENT PAGE LINK BEING BOLD ON NAVIGATION MENU (NAV ELEMENT FOR NAVBAR ID, ANCHOR, ACTIVE) */
-nav#navbar a.active {
+nav#navigation-menu a.active {
     font-weight: bold;
 }
 
 /* STYLING THE POSITIONING WHEN THE NAVIGATION MENU IS DISPLAYED (NAV ELEMENT FOR NAVBAR ID, WHEN OPEN) */
-nav#navbar.open {
+nav#navigation-menu.open {
     height: auto;
 }
 
 /* STYLING FOR: NAVIGATION MENU LIST AND CONTENT */
-nav#navbar ul {
+nav#navigation-menu ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -79,12 +79,12 @@ nav#navbar ul {
 }
 
 /* STYLING FOR: NAVIGATION MENU LIST ITEMS */
-nav#navbar ul li {
+nav#navigation-menu ul li {
     padding: 10px;
 }
 
 /* STYLING FOR: NAVIGATION MENU LINK STYLES */
-nav#navbar ul li a {
+nav#navigation-menu ul li a {
     text-decoration: none;
     color: #fff;
     display: block;
@@ -144,7 +144,7 @@ main {
 }
 
 /* STYLING FOR: PRODUCT CARDS */
-.card {
+.product-card {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -157,14 +157,14 @@ main {
 }
 
 /* STYLING FOR THE PRODUCT IMAGES */
-.card-image {
+.product-card-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
 /* STYLING FOR: CONTENT WITHIN PRODUCT CARD */
-.card-content {
+.product-card-content {
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -173,14 +173,14 @@ main {
 }
 
 /* STYLING FOR: PRODUCT CARD TITLE */
-.card h4 {
+.product-card h4 {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 /* STYLING FOR: PRODUCT DESCRIPTION */
-.card p {
+.product-card p {
     font-size: 0.9rem;
     color: #666;
     margin-bottom: 15px;
@@ -188,7 +188,7 @@ main {
 }
 
 /* STYLING FOR: BUY IT NOW BUTTON */
-.card-button {
+.product-card-button {
     align-self: flex-start;
     padding: 10px 20px;
     background-color: #333;
@@ -202,13 +202,13 @@ main {
 }
 
 /* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
-.card-button:visited {
+.product-card-button:visited {
     color: yellow;
 }
 
 
 /* STYLING FOR: SEARCH BAR IN NAVIGATION */
-nav#navbar .search-bar {
+nav#navigation-menu .search-bar {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -216,7 +216,7 @@ nav#navbar .search-bar {
 }
 
 /* STYLING FOR THESEARCH BAR IN THE INPUT FIELD */
-nav#navbar .search-bar input {
+nav#navigation-menu .search-bar input {
     width: 60%;
     max-width: 400px;
     font-size: 16px;

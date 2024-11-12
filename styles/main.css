@@ -131,8 +131,12 @@ footer ul li a.utility-link:link {
     color: #fff; 
 }
 
-/* STYLING FOR: FOOTER UTILITY WHEN VISITED */
+/* STYLING FOR: FOOTER UTILITY LINK WHEN VISITED */
 footer ul li a.utility-link:visited {
+    color: yellow;
+}
+
+footer ul li a.utility-link.visited {
     color: yellow;
 }
 

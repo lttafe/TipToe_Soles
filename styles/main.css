@@ -124,11 +124,35 @@ footer ul li {
 /* STYLING FOR: FOOTER LIST LINK STYLES */
 footer ul li a {
     text-decoration: none;
+}
+
+/* STYLING FOR: Return Policy LINK */
+footer ul li a.return-policy:link {
+    color: #fff; 
+}
+
+/* STYLING FOR: Return Policy WHEN VISITED */
+footer ul li a.return-policy:visited {
+    color: yellow;
+}
+
+/* STYLING FOR: Exchange Policy LINK */
+footer ul li a.exchange-policy:link {
     color: #fff;
 }
 
-/* STYLING FOR: FOOTER LIST LINK STYLES */
-footer ul li a:visited {
+/* STYLING FOR: Exchange Policy WHEN VISITED */
+footer ul li a.exchange-policy:visited {
+    color: yellow;
+}
+
+/* STYLING FOR: Delivery Policy LINK */
+footer ul li a.delivery-policy:link {
+    color: #fff
+}
+
+/* STYLING FOR: Delivery Policy WHEN VISITED */
+footer ul li a.delivery-policy:visited {
     color: yellow;
 }
 
@@ -204,7 +228,7 @@ main {
 
 /* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
 .card-button1:visited {
-    color: yellow
+    color: yellow;
 }
 
 /* STYLING FOR: BUY IT NOW BUTTON */
@@ -223,7 +247,7 @@ main {
 
 /* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
 .card-button2:visited {
-    color: yellow
+    color: yellow;
 }
 
 /* STYLING FOR: BUY IT NOW BUTTON */
@@ -242,7 +266,7 @@ main {
 
 /* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
 .card-button3:visited {
-    color: yellow
+    color: yellow;
 }
 
 /* STYLING FOR: BUY IT NOW BUTTON */
@@ -261,7 +285,7 @@ main {
 
 /* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
 .card-button4:visited {
-    color: yellow
+    color: yellow;
 }
 
 /* STYLING FOR: BUY IT NOW BUTTON */
@@ -280,7 +304,7 @@ main {
 
 /* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
 .card-button5:visited {
-    color: yellow
+    color: yellow;
 }
 
 

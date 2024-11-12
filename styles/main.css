@@ -127,6 +127,11 @@ footer ul li a {
     color: #fff;
 }
 
+/* STYLING FOR: FOOTER LIST LINK STYLES */
+footer ul li a:visited {
+    color: yellow;
+}
+
 /* STYLING FOR PAGE CONTENT AREA */
 main {
     margin-left: 240px;
@@ -184,7 +189,7 @@ main {
 }
 
 /* STYLING FOR: BUY IT NOW BUTTON */
-.card-button {
+.card-button1 {
     align-self: flex-start;
     padding: 10px 20px;
     background-color: #333;
@@ -194,8 +199,90 @@ main {
     text-decoration: none;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: background-color 0. 3s ease;
 }
+
+/* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
+.card-button1:visited {
+    color: yellow
+}
+
+/* STYLING FOR: BUY IT NOW BUTTON */
+.card-button2 {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0. 3s ease;
+}
+
+/* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
+.card-button2:visited {
+    color: yellow
+}
+
+/* STYLING FOR: BUY IT NOW BUTTON */
+.card-button3 {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0. 3s ease;
+}
+
+/* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
+.card-button3:visited {
+    color: yellow
+}
+
+/* STYLING FOR: BUY IT NOW BUTTON */
+.card-button4 {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0. 3s ease;
+}
+
+/* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
+.card-button4:visited {
+    color: yellow
+}
+
+/* STYLING FOR: BUY IT NOW BUTTON */
+.card-button5 {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0. 3s ease;
+}
+
+/* STYLING FOR: BUY IT NOW BUTTON ONCE VISITED */
+.card-button5:visited {
+    color: yellow
+}
+
 
 /* STYLING FOR: SEARCH BAR IN NAVIGATION */
 nav#navbar .search-bar {

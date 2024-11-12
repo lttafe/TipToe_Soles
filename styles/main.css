@@ -1,4 +1,6 @@
-/* BASELINE */
+/* LACHLAN TANFIELD - PART 3 ASSIGNMENT */
+
+/* DEFAULT STYLING TO BE INHERITED IF NOT STYLED OTHERWISE */
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +8,7 @@
     font-family: Arial, sans-serif;
 }
 
+/* STYLING FOR: BODY, ENABLE SCREEN SCALABILITY THROUGH FLEX */
 body {
     background-color: #f0f0f0;
     color: #333;
@@ -14,6 +17,7 @@ body {
     flex-direction: column;
 }
 
+/* STYLING FOR: HEADER, ENABLE SCREEN SCALABILITY THROUGH FLEX */
 header {
     position: fixed;
     top: 0;
@@ -28,10 +32,12 @@ header {
     z-index: 1000;
 }
 
+/* STYLING FOR: HEADER, REDUCE COMPANY LOGO SIZE */
 header .logo img {
     height: 40px;
 }
 
+/* STYLING FOR: HEADER HAMBURGER MENU, SHOW OR DISSAPEAR BASED ON RESPONSIVE.CSS */
 header .hamburger {
     display: none;
     background: none;
@@ -41,6 +47,7 @@ header .hamburger {
     cursor: pointer;
 }
 
+/* STYLING FOR: NAVIGATION MENU (NAV ELEMENT FOR NAVBAR ID) */
 nav#navbar {
     position: fixed;
     top: 50px;
@@ -53,10 +60,12 @@ nav#navbar {
     height: 0;
 }
 
+/* STYLING FOR: CURRENT PAGE LINK BEING BOLD ON NAVIGATION MENU (NAV ELEMENT FOR NAVBAR ID, ANCHOR, ACTIVE) */
 nav#navbar a.active {
     font-weight: bold;
 }
 
+/* STYLING THE POSITIONING WHEN THE NAVIGATION MENU IS DISPLAYED (NAV ELEMENT FOR NAVBAR ID, WHEN OPEN) */
 nav#navbar.open {
     height: auto;
 }
